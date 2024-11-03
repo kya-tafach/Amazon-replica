@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 // import classes from './ProductDetail.module.css'
-import LayOut from '../../Components/LayOut/LayOut'
+import Layout from '../../Components/Layout/Layout'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { productUrl } from '../../Api/endPoints'
@@ -22,7 +22,7 @@ function ProductDetail() {
     })
   }, [])
   return (
-    <LayOut> 
+    <Layout> 
    {isLoading? (<Loader/>):(
    <ProductCard
     product={product}
@@ -32,7 +32,7 @@ function ProductDetail() {
 
 
 />)}
-    </LayOut>
+    </Layout>
   )
 }
 

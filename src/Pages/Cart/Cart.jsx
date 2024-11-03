@@ -1,7 +1,7 @@
 
 
 import React, { useContext } from 'react'
-import LayOut from '../../Components/Layout/Layout'
+import Layout from '../../Components/Layout/Layout'
 import { DataContext } from '../../Components/DataProvider/DataProvider';
 import ProductCard from '../../Components/Product/ProductCard'
 import CurrencyFormat from '../../Components/CurrencyFormat/CurrencyFormat';
@@ -30,7 +30,7 @@ const decrement =(id)=>{
 }
 
   return (
-    <LayOut> 
+    <Layout> 
      <section className={classes.container} >
       <div className={classes.cart__container}>
       <h2>Hello</h2>
@@ -78,7 +78,7 @@ const decrement =(id)=>{
 
 )}
      </section>
-    </LayOut>
+    </Layout>
   )
 }
 

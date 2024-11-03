@@ -1,6 +1,6 @@
 import React, { useState,useContext } from 'react'
  import classes from './SignUp.module.css' 
-import Layout from '../../Components/LayOut/LayOut'
+import Layout from '../../Components/Layout/Layout'
 import { Link, useNavigate} from 'react-router-dom'
 import { auth } from '../../Utility/firebase'
 import {ClipLoader } from 'react-spinners'

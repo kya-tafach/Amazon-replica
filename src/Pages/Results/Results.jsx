@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import classes from './Results.module.css'
-import LayOut from '../../Components/LayOut/LayOut'
+import Layout from '../../Components/Layout/Layout'
 import {useParams} from 'react-router-dom'
 import axios  from 'axios'
 import { productUrl } from '../../Api/endPoints'
@@ -18,7 +18,7 @@ function Results() {
   }, [])
   
   return (
-    <LayOut> 
+    <Layout> 
  <section>
         <h1 style={{ padding: "30px" }}>Results</h1>
         <p style={{ padding: "30px" }}>Category / {categoryName}</p>
@@ -34,7 +34,7 @@ function Results() {
             ))}
           </div>
       </section>
-    </LayOut>
+    </Layout>
   )
 }
 

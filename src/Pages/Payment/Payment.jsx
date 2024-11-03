@@ -1,7 +1,7 @@
 
 import React, { useContext, useState } from "react";
 import classes from "./Payment.module.css";
-import LayOut from "../../Components/LayOut/LayOut";
+import Layout from "../../Components/Layout/Layout";
 import { DataContext } from "../../Components/DataProvider/DataProvider";
 import ProductCard from "../../Components/Product/ProductCard";
 import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
@@ -82,7 +82,7 @@ function Payment() {
   };
 
   return (
-    <LayOut>
+    <Layout>
       {/* header */}
       <div className={classes.payment__header}>
         Checkout ({totalItem}) items
@@ -147,7 +147,7 @@ function Payment() {
           </div>
         </div>
       </section>
-    </LayOut>
+    </Layout>
   );
 }
 
