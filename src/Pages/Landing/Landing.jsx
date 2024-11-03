@@ -2,8 +2,8 @@
 import React from 'react'
 import Layout from '../../Components/Layout/Layout'
 import Category from '../../Components/Category/Category'
-import CarouselEffect from "../../Components/Carousel/CarouselEffect.jsx"
 import Product from '../../Components/Product/Product'
+import CarouselEffect from "../../Components/Carousel/CarouselEffect"
 
 function Landing() {
   return (
