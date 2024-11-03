@@ -1,7 +1,6 @@
 import React, { useContext,useState,useEffect } from 'react'
 import './App.css'
 import Header from './Components/Header/Header'
-import CarouselEffect from './Components/Carousel/CarouselEffect'
 import { BiCategory } from 'react-icons/bi'
 import Category from './Components/Category/Category'
 import Product from './Components/Product/Product'
