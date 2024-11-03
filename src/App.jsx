@@ -12,7 +12,6 @@ import {DataContext} from './Components/DataProvider/DataProvider'
 
 import Routing from './Router'
 
-
 function App() {
 
   const [{ user }, dispatch] = useContext(DataContext);
